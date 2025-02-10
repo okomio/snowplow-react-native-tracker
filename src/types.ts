@@ -201,6 +201,11 @@ export interface TrackerConfiguration {
    * @defaultValue false
    */
   userAnonymisation?: boolean;
+  /**
+   * Whether to reuse the previous session when restarting
+   * @defaultValue false
+   */
+  isPersistentSession?: boolean;
 }
 
 /**

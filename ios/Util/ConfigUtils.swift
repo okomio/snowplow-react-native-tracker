@@ -65,6 +65,9 @@ class ConfigUtils {
         if let userAnonymisation = trackerConfig.object(forKey: "userAnonymisation") as? NSNumber {
             trackerConfiguration.userAnonymisation = userAnonymisation.boolValue
         }
+        if let isPersistentSession = trackerConfig.object(forKey: "isPersistentSession") as? NSNumber {
+            trackerConfiguration.isPersistentSession = isPersistentSession.boolValue
+        }
 
         return trackerConfiguration
     }

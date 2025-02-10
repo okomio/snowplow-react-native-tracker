@@ -49,6 +49,7 @@ const trackerProps = [
   'exceptionAutotracking',
   'diagnosticAutotracking',
   'userAnonymisation',
+  'isPersistentSession',
 ];
 const sessionProps = ['foregroundTimeout', 'backgroundTimeout'];
 const emitterProps = [

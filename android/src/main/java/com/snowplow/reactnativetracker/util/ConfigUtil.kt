@@ -72,6 +72,9 @@ object ConfigUtil {
     if (trackerConfig.hasKey("userAnonymisation")) {
       trackerConfiguration.userAnonymisation(trackerConfig.getBoolean("userAnonymisation"))
     }
+    if (trackerConfig.hasKey("isPersistentSession")) {
+      trackerConfiguration.isPersistentSession(trackerConfig.getBoolean("isPersistentSession"))
+    }
     return trackerConfiguration
   }
 
