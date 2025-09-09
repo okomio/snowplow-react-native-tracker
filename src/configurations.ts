@@ -31,7 +31,7 @@ import type {
 /**
  * Configuration properties
  */
-const networkProps = ['endpoint', 'method', 'customPostPath', 'requestHeaders'];
+const networkProps = ['endpoint', 'method', 'customPostPath', 'requestHeaders', 'enableContentEncoding'];
 const trackerProps = [
   'appId',
   'devicePlatform',

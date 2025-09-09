@@ -20,6 +20,9 @@ class ReactNativeTracker: NSObject {
         if let requestHeaders = networkConfig.object(forKey: "requestHeaders") as? Dictionary<String, String> {
             networkConfiguration.requestHeaders = requestHeaders
         }
+        if let enableContentEncoding = networkConfig.object(forKey: "enableContentEncoding") as? Bool {
+            networkConfiguration.enableContentEncoding = enableContentEncoding
+        }
 
         // Configurations
         var controllers: [ConfigurationProtocol] = []

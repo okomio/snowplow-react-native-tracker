@@ -114,6 +114,11 @@ export interface NetworkConfiguration {
    * Custom headers for HTTP requests to the Collector.
    */
   requestHeaders?: Record<string, string>;
+
+  /**
+   * Enables content encoding (gzip) for POST requests
+   */
+  enableContentEncoding?: boolean;
 }
 
 /**
