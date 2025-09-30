@@ -97,7 +97,7 @@ dependencies {
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  implementation "com.github.okomio:snowplow-android-tracker:persistent-session-SNAPSHOT"
+  implementation "com.github.okomio:snowplow-android-tracker:gzip-SNAPSHOT"
   implementation "com.squareup.okhttp3:okhttp:4.10.0"
 }
 

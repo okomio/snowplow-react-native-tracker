@@ -109,6 +109,9 @@ object ConfigUtil {
     if (emitterConfig.hasKey("serverAnonymisation")) {
       emitterConfiguration.serverAnonymisation(emitterConfig.getBoolean("serverAnonymisation"))
     }
+    if (emitterConfig.hasKey("enableContentEncoding")) {
+      emitterConfiguration.enableContentEncoding(emitterConfig.getBoolean("enableContentEncoding"))
+    }
     return emitterConfiguration
   }
 
