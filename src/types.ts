@@ -267,6 +267,7 @@ export interface EmitterConfiguration {
 
   /**
    * Enables content encoding (gzip) for POST requests
+   * @defaultValue false
    */
   enableContentEncoding?: boolean;
 }

@@ -59,6 +59,7 @@ const emitterProps = [
   'byteLimitPost',
   'byteLimitGet',
   'serverAnonymisation',
+  'enableContentEncoding',
 ];
 const subjectProps = [
   'userId',
