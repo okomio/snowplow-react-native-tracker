@@ -107,6 +107,9 @@ class ConfigUtils {
         if let serverAnonymisation = emitterConfig.object(forKey: "serverAnonymisation") as? NSNumber {
             emitterConfiguration.serverAnonymisation = serverAnonymisation.boolValue
         }
+        if let enableContentEncoding = emitterConfig.object(forKey: "enableContentEncoding") as? Bool {
+            emitterConfiguration.enableContentEncoding = enableContentEncoding
+        }
 
         return emitterConfiguration
     }
